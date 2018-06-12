@@ -1,5 +1,5 @@
 @charset "gb2312";
-.blogs .blogpic img{height:100px;}
+.blogs .blogpic img{height:110px;}
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
 header { width: 100%; margin: auto; }
 .nav { width: 90% }
@@ -106,7 +106,7 @@ h1.t_nav span { display: none }
 	.bloginfo .author, .bloginfo .lmname { display: none }
 
 	.blogs .blogpic {width:auto;}
-	.blogs .blogpic img{ width:70px; height: auto; margin-bottom: 10px }
+	.blogs .blogpic img{ max-height: 80px;; margin-bottom: 10px }
 	.blogs .blogtitle {font-size: 18px; }
 	.blogs .blogtext{margin-top: 0px}
 
