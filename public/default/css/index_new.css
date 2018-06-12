@@ -22,15 +22,18 @@
 .toppic li span { position: absolute; top: 20px; left: 20px; padding: 6px 10px; background: rgba(0, 0, 0, .7); font-size: 12px; display: block; color: #FFF; border-radius: 3px; }
 .toppic li:hover i { opacity: 1; }
 .toppic li:last-child { margin-top: 19px }
+
 /*blogsbox*/
 .blogsbox { width: 66%; overflow: hidden; float: left }
 .blogs { overflow: hidden; margin-bottom: 20px; padding: 20px; background: #FFF; -webkit-box-shadow: 0 2px 5px 0 rgba(146, 146, 146, .1); -moz-box-shadow: 0 2px 5px 0 rgba(146, 146, 146, .1); box-shadow: 0 2px 5px 0 rgba(146, 146, 146, .1); -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; transition: all 0.6s ease; }
-.blogs .blogpic { float: left; width: 30%; max-height: 170px; margin-right: 20px; display: block; overflow: hidden; }
+.blogs .blogs_left{float:left;width: 30%;}
+.blogs .blogs_right{float:right;width: 68%;}
+.blogs .blogpic { float: left; width: 100%; max-height: 170px; margin-right: 20px; display: block; overflow: hidden; }
 .blogs .blogpic img { width: 100%; height: auto; -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; transition: all 0.6s ease; margin-bottom: 10px }
 .blogs .blogpic :hover img { transform: scale(1.1) }
 .blogs .blogtitle { margin: 0 0 10px 0; font-size: 20px; overflow: hidden; }
 .blogs .blogtitle a:hover { color: #337ab7; }
-.blogs .blogtext { font-size: 14px; color: #566573; overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3; margin-top: 20px }
+.blogs .blogtext { font-size: 14px; color: #8f9ca9; overflow: hidden; text-overflow:ellipsis;white-space: nowrap; margin-top: 20px ;}
 .bloginfo { overflow: hidden; margin-top: 15px }
 .bloginfo ul li { float: left; font-size: 12px; padding: 0 0 0 20px; margin: 0 15px 0 0; color: #748594; line-height: 1.5; display: inline-block; }
 .bloginfo ul li a { color: #748594; }
