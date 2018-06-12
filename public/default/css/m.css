@@ -1,5 +1,5 @@
 @charset "gb2312";
-.blogs .blogpic img{height:110px;}
+.blogs .blogpic img{height:115px;}
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
 header { width: 100%; margin: auto; }
 .nav { width: 90% }
